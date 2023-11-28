@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lightup Craft</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="textures/icon.png">
+</head>
+
+<body>
+
+    <!-- ********************* html ********************* -->
+
+    <h1 class="title">Lightup Craft</h1>
+    <hr>
+    <br>
+    <p class="winningText" id="winningText"> You won ! </p>
+    <p class="centered"><canvas id="gamedraw" width="650px" height="650px"></canvas></p>
+    <hr>
+    <br>
+    <div class="centered">
+        <section>
+            <button class="restart" onclick="restart()" id="restartgame"></button>
+            <button class="solve" onclick="solve()" id="solvegame"></button>
+            <button class="undo" onclick="undo()" id="undogame"></button>
+            <button class="redo" onclick="redo()" id="redogame"></button>
+            <button class="newgame" onclick="newgame()" id="newgame"></button>
+        </section>
+        <br>
+        <label class="checkbox">
+            <input type="checkbox" id="wrapping">wrapping </checkbox></label>
+        </label>
+        <br>
+        <label class="walls">walls pressence<br>
+            <select id="walls%">
+                <option value="20">20% walls</option>
+                <option value="30">30% walls</option>
+                <option value="40">40% walls</option>
+                <option value="60">60% walls</option>
+            </select>
+        </label>
+    </div>
+    <br>
+    <!-- ********************* script ********************* -->
+
+    <script src="game.js"></script>
+    <script src="game_script.js"> </script>
+
+</body>
+
+</html>

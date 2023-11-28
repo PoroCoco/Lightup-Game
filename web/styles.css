@@ -1,0 +1,82 @@
+body {
+    background-image: url('textures/background_screen.png');
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-variant: small-caps;
+    text-align: center;
+    max-width: 1500px;
+    margin: auto auto;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-decoration: underline white;
+    text-shadow: 1px 1px;
+}
+
+.centered {
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.sliced {
+    border-style: dashed;
+    text-shadow: 1px 1px;
+}
+
+.title {
+    text-align: center;
+    background-color: gray;
+    text-decoration: underline;
+}
+
+.restart {
+    background-image: url('textures/lightup_btn_restart.png');
+    background-size: 50px 50px;
+    height: 53px;
+    width: 53px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.solve {
+    background-image: url('textures/lightup_btn_solve.png');
+    background-size: 50px 50px;
+    height: 53px;
+    width: 53px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.undo {
+    background-image: url('textures/lightup_btn_undo.png');
+    background-size: 50px 50px;
+    height: 53px;
+    width: 53px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.redo {
+    background-image: url('textures/lightup_btn_redo.png');
+    background-size: 50px 50px;
+    height: 53px;
+    width: 53px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.newgame {
+    background-image: url('textures/lightup_btn_newgame.png');
+    background-size: 50px 50px;
+    height: 53px;
+    width: 53px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.winningText {
+    display: none;
+    font-size: xx-large;
+    color: rgb(8, 139, 8);
+}
