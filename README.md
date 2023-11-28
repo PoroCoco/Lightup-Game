@@ -1,6 +1,6 @@
 # **Lightup Craft**
 This is a small one player style puzzle game, it was made with minecraft textures in mind.
-made by Taif Aabo-Aljaloo and Louis Pyrondet.
+made by Taif Aabo-Aljaloo and Louis Peyrondet.
 
 
 ## Game Rules
